@@ -1,0 +1,9 @@
+syntax = "proto3";
+package dvirtayeb.checkers.checkers;
+
+option go_package = "github.com/dvirtayeb/checkers/x/checkers/types";
+
+message NextGame {
+  uint64 idValue = 1; 
+  
+}
